@@ -1,4 +1,4 @@
-
+//https://school.programmers.co.kr/learn/courses/30/lessons/147355
 function solution(t, p) {
     let answer = 0;
     let array =[]
@@ -15,3 +15,4 @@ function solution(t, p) {
 }
 
 solution("13106123512","1314")
+
