@@ -16,3 +16,17 @@ function solution(t, p) {
 
 solution("13106123512","1314")
 
+
+//다른 사람 풀이
+
+function otherSolution(t, p) {
+    let count = 0;
+    for(let i=0; i<=t.length-p.length; i++) {
+        let value = t.slice(i, i+p.length);
+        if(+p >= +value) count++;
+    }
+    return count;
+}
+
+
+otherSolution()
