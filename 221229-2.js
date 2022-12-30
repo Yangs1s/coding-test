@@ -31,7 +31,6 @@ function solution(N, stages) {
             }else{
                 return -1
             }
-            
         }
     })
     return answer.map(ele => ele.idx);
