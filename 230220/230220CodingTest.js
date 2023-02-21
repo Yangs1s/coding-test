@@ -11,6 +11,7 @@ function solution(s, skip, index) {
         while (idx > newStrLength - 1) {
             idx -= newStrLength
         }
+        console.log(idx)
         ans += newStr[idx]
 
     })
